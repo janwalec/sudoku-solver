@@ -1,10 +1,7 @@
 #include "game.h"
 
 int main() {
-    Game g;
-    g.drawBoard();
-    //g.board[70]->displayPossibilities();
-    //g.solve();
-
+    Game g(false); 
+    
     return 0;
 }
